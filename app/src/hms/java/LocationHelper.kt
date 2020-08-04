@@ -9,6 +9,7 @@ import com.huawei.hms.location.*
 import com.test2.demo.HelperToActivityCallback
 import java.lang.Exception
 
+// HMS
 class LocationHelper(context: Context) {
     var callback:HelperToActivityCallback = context as HelperToActivityCallback
     var settingsClient = LocationServices.getSettingsClient(context)
